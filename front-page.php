@@ -11,7 +11,7 @@
         <div class="hero-content">
             <!-- <img src="<?php echo get_template_directory_uri(); ?> /images/hero-image.png"> -->
             <h1 class="hero-title">Transform Your Workspace</h1>
-            <p class="hero-subtitle">Noval crafts bioclimatic, innovative office designs in Bengaluru.</p>
+            <p class="hero-subtitle">Novel crafts bioclimatic, innovative office designs in Bengaluru.</p>
             <a href="#portfolio" class="btn btn-primary" style="opacity: 1;">Discover Our Projects</a>
         </div>
     </section>
@@ -74,7 +74,7 @@
             if ($testimonials->have_posts()) : while ($testimonials->have_posts()) : $testimonials->the_post();
             ?>
                 <article class="testimonial" itemscope itemtype="https://schema.org/Review">
-                    <meta itemprop="itemReviewed" content="Noval Office Design Services">
+                    <meta itemprop="itemReviewed" content="Novel Office Design Services">
                     <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" loading="lazy" class="testimonial-image" itemprop="image">
                     <h3 itemprop="author"><?php the_title(); ?></h3>
                     <div class="testimonial-content" itemprop="reviewBody"><?php the_content(); ?></div>
@@ -140,7 +140,7 @@
     <!-- CTA Section -->
     <section class="cta-section" id="cta">
         <h2>Ready to Redefine Your Office?</h2>
-        <p>Contact Noval Design to bring your vision to life.</p>
+        <p>Contact Novel Design to bring your vision to life.</p>
         <a href="#contact" class="btn btn-primary">Get Started</a>
     </section>
 </main>

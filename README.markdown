@@ -1,8 +1,8 @@
-# Noval Design Agency WordPress Theme
+# Novel Office WordPress Theme
 
 ## Overview
 
-The Noval Design Agency theme is a modern, responsive WordPress theme designed for an office design agency based in Bengaluru, India. It showcases innovative, bioclimatic office designs and branding solutions with a clean, professional aesthetic. The theme features a dynamic hero slideshow, an animated pop-up navigation menu, and multiple sections for services, portfolio, testimonials, team, gallery, clients, and a call-to-action (CTA). Built with performance and accessibility in mind, it uses GSAP for animations and WordPress best practices for extensibility.
+The Novel Office theme is a modern, responsive WordPress theme designed for an office design agency based in Bengaluru, India. It showcases innovative, bioclimatic office designs and branding solutions with a clean, professional aesthetic. The theme features a dynamic hero slideshow, an animated pop-up navigation menu, and multiple sections for services, portfolio, testimonials, team, gallery, clients, and a call-to-action (CTA). Built with performance and accessibility in mind, it uses GSAP for animations and WordPress best practices for extensibility.
 
 ## Features
 
@@ -24,7 +24,7 @@ The Noval Design Agency theme is a modern, responsive WordPress theme designed f
 ## File Structure
 
 ```
-noval-theme/
+my-custom-theme/
 ├── images/
 │   ├── Novel Logo.png           # Header logo
 │   ├── Component 160.jpg        # Hero slideshow image
@@ -48,8 +48,8 @@ noval-theme/
 1. **Install WordPress**:
    - Set up a local or hosted WordPress environment (e.g., Local by Flywheel, XAMPP, or a hosting provider).
 2. **Install Theme**:
-   - Copy the `noval-theme` folder to `wp-content/themes/`.
-   - In WordPress admin, go to `Appearance > Themes` and activate "Noval Design Agency".
+   - Copy the `my-custom-theme` folder to `wp-content/themes/`.
+   - In WordPress admin, go to `Appearance > Themes` and activate "Novel Design Agency".
 3. **Configure Menu**:
    - Go to `Appearance > Menus` in WordPress admin.
    - Create a "Primary Menu" with custom links:
@@ -64,8 +64,8 @@ noval-theme/
    - Assign the menu to the "Primary Menu" location.
    - Note: A fallback menu is included in `header.php` if no primary menu is set.
 4. **Add Images**:
-   - Place all required images in the `noval-theme/images/` directory, ensuring paths match those in `front-page.php` and `header.php`.
-   - Add portfolio and gallery images to `noval-theme/images/projects/`.
+   - Place all required images in the `novel-theme/images/` directory, ensuring paths match those in `front-page.php` and `header.php`.
+   - Add portfolio and gallery images to `novel-theme/images/projects/`.
    - Compress images (&lt;100KB) using tools like TinyPNG for optimal performance.
 5. **Set Up Testimonials**:
    - In WordPress admin, create posts under the "Testimonial" custom post type with a featured image, title (author name), and content (review text).
@@ -109,4 +109,4 @@ Aditya Ugalal Pawar
 
 ## License
 
-© 2025 Noval Design Agency. All rights reserved.
+© 2025 Novel Design Agency. All rights reserved.

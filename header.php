@@ -1,6 +1,6 @@
 <?php
 /**
- * Header template for Noval Design Agency theme
+ * Header template for Novel Design Agency theme
  */
 ?>
 <!DOCTYPE html>
@@ -8,11 +8,11 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Noval Design Agency - Innovative, bioclimatic office designs and branding solutions in Bengaluru.">
-    <meta name="keywords" content="office design, bioclimatic architecture, interior design, Noval, Bengaluru">
+    <meta name="description" content="Novel Design Agency - Innovative, bioclimatic office designs and branding solutions in Bengaluru.">
+    <meta name="keywords" content="office design, bioclimatic architecture, interior design, Novel, Bengaluru">
     <meta name="author" content="Your Name">
     <meta property="og:title" content="<?php bloginfo('name'); ?> - Modern Office Design">
-    <meta property="og:description" content="Transform your workspace with Noval's innovative office design solutions.">
+    <meta property="og:description" content="Transform your workspace with Novel's innovative office design solutions.">
     <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/Component 160.jpg">
     <meta property="og:url" content="<?php echo home_url(); ?>">
     <?php wp_head(); ?>
@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
     <header class="site-header">
         <div class="logo">
-            <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Novel Logo.png" alt="Noval Design Logo" loading="lazy"></a>
+            <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Novel Logo.png" alt="Novel Design Logo" loading="lazy"></a>
 
             <button class="menu-toggle" aria-label="Toggle Menu">
                 <span class="hamburger-icon"><span></span></span>
